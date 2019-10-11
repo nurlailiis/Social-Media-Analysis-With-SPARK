@@ -4,10 +4,13 @@ In this section I try to do project Twitter Sentiment Analysis. In this project,
 ## Get Started
 1. The dataset using clean_tweet.csv file consist of data scraped from Twitter, contain text and target negative or positive
 2. Analyze data using [CRISP-DM](https://www.sv-europe.com/crisp-dm-methodology/) methodology
-4. Classification of Tweets to negative sentiment and positive sentiment
-5. Visualization data
-6. The image for word cloud visualization in fole image
-7. Using Logistic Regression and Naive Bayes for Modeling
+    - Business Understanding
+    - Data Understanding
+    - Data Preparation : duplication detection, stopwords removal, rare words removal, and lemmatization
+    - Data Exploration : explore the data, visualization, and feature extraction
+    - Modeling : train test split, bag of word Count Vectorizer, finding TF/IDF, and using model Logistic Regression and Naive Bayes
+4. Classification of Tweets to negative sentiment (0) and positive sentiment (1)
+5. The image for word cloud visualization in file image
 
 ## Technologies
 To execute this section you can use this technologies.
